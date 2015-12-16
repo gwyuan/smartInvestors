@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/list_item_favor"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/list_item_symbol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NoData"
+        android:textSize="16sp"
+        style="@style/TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:id="@+id/list_item_company"
+        android:text="@string/NoData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+</LinearLayout>

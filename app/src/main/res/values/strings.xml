@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">smartInvestors</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="search_label" translatable="false">Search</string>
+    <string name="search_hint" translatable="false">CompanyName/StockTicker</string>
+    <string name="NoData" translatable="false">No data</string>
+    <string name="title_activity_financial">Financials</string>
+    <string name="action_share">Share</string>
+
+</resources>

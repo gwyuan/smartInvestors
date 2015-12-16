@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="harristech.smartinvestors.FinancialActivity$PlaceholderFragment"
+    android:fillViewport="true"
+    android:id="@+id/fragment_financial">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_financial_linear"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/financial"
+                android:text="@string/hello_world"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9" />
+            <CheckBox
+                android:id="@+id/financial_chk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:button="@drawable/btn_star_selector"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/no_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:id="@+id/income"
+            android:orientation="vertical" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:id="@+id/balance"
+            android:orientation="vertical" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:id="@+id/cashflow"
+            android:orientation="vertical" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip" />
+        <LinearLayout
+            android:id="@+id/financial_highlight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+</ScrollView>
